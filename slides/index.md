@@ -12,6 +12,7 @@ Duffie Cooley @mauilion
 Staff Cloud Native Architect at VMware
 
 Catch me on [twitter](https://twitter.com/mauilion), [slack.k8s.io](https://kubernetes.slack.com/team/U37TLLWAU), or [mauilion.dev](https://mauilion.dev)
+
 [materials at github.com/mauilion/kind-demo](https://github.com/mauilion/kind-demo)
 
 ---
