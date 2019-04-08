@@ -1,33 +1,36 @@
 ---
-slideOptions:
-  transition: slide
-  theme: serif
+theme: serif
+revealOptions:
+  transition: none
 ---
 
-#### An introduction to [kind](sigs.k8s.io/kind)
-##### Duffie Cooley @mauilion
-![duffie.jpg](../static/dcooley.jpg)
-##### Staff Cloud Native Architect at VMware
+##### An introduction to [kind](sigs.k8s.io/kind)
+![duffie.jpg](static/dcooley.jpg)
+
+Duffie Cooley @mauilion
+
+Staff Cloud Native Architect at VMware
+
 Catch me on [twitter](https://twitter.com/mauilion), [slack.k8s.io](https://kubernetes.slack.com/team/U37TLLWAU), or [mauilion.dev](https://mauilion.dev)
-[materials at github.com/mauilion/kind-demo](github.com/mauilion/kind-demo)
+[materials at github.com/mauilion/kind-demo](https://github.com/mauilion/kind-demo)
 
 ---
 
 ## sigs.k8s.io/kind
-![](../static/logo.png)
+![](static/logo.png)
 
-[materials at github.com/mauilion/kind-demo](github.com/mauilion/kind-demo)
+[materials at github.com/mauilion/kind-demo](https://github.com/mauilion/kind-demo)
 
 ---
 
-[![asciicast](../static/kind-default.svg)](https://asciinema.org/a/S8IuYIRs8oSvT1mwzvArwEQHs)
+[![asciicast](static/kind-default.svg)](https://asciinema.org/a/S8IuYIRs8oSvT1mwzvArwEQHs)
 
 ---
 
 #### Kubernetes in Docker
 
 
-[![](https://johnharris.io/images/kind-of-a-big-deal.jpg)](https://johnharris.io/2019/04/kubernetes-in-docker-kind-of-a-big-deal/)
+[![](static/kind-of-a-big-deal.jpg)](https://johnharris.io/2019/04/kubernetes-in-docker-kind-of-a-big-deal/)
 
 ---
 
@@ -66,7 +69,7 @@ Catch me on [twitter](https://twitter.com/mauilion), [slack.k8s.io](https://kube
 
 ### Thanks to @BenTheElder
 #### and all the other contributors for such a fantastic project!
-![](https://elder.dev/images/ben_avatar_optim.jpg)
+![](static/ben_avatar_optim.jpg)
 
 ---
 
@@ -74,4 +77,5 @@ Catch me on [twitter](https://twitter.com/mauilion), [slack.k8s.io](https://kube
 
 ## Demo Time!!
 
----
+See github.com/mauilion/kind-demo for the config!
+

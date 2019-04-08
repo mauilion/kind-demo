@@ -1,4 +1,4 @@
-# Duffie's kind demos
+# a kind demos
 
 ## slides are here: https://mauilion.github.io/kind-demo/index.html
 
