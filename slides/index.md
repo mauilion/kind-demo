@@ -1,4 +1,5 @@
 ---
+title: "A kind demo"
 theme: serif
 revealOptions:
   transition: none
