@@ -1,1 +1,124 @@
-kind-demo.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/serif.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+#### An introduction to [kind](sigs.k8s.io/kind)
+##### Duffie Cooley @mauilion
+![duffie.jpg](static/dcooley.jpg)
+##### Staff Cloud Native Architect at VMware
+Catch me on [twitter](https://twitter.com/mauilion), [slack.k8s.io](https://kubernetes.slack.com/team/U37TLLWAU), or [mauilion.dev](https://mauilion.dev)
+[materials at github.com/mauilion/kind-demo](github.com/mauilion/kind-demo)
+</script></section><section  data-markdown><script type="text/template">
+## sigs.k8s.io/kind
+![](static/logo.png)
+
+[materials at github.com/mauilion/kind-demo](github.com/mauilion/kind-demo)
+</script></section><section  data-markdown><script type="text/template">
+[![asciicast](static/kind-default.svg)](https://asciinema.org/a/S8IuYIRs8oSvT1mwzvArwEQHs)
+</script></section><section  data-markdown><script type="text/template">
+#### Kubernetes in Docker
+
+
+[![](https://johnharris.io/images/kind-of-a-big-deal.jpg)](https://johnharris.io/2019/04/kubernetes-in-docker-kind-of-a-big-deal/)
+</script></section><section  data-markdown><script type="text/template">
+#### Why kind?
+<br>
+
+* supports multi-node (including HA) clusters
+* customizable base and node images
+* can use your local kubernetes branch
+* written in go, can be used as a library
+* can be used on Windows, MacOS and Linux
+* CNCF certified conformant Kubernetes installer
+</script></section><section  data-markdown><script type="text/template">
+#### a bit about `kubeadm`
+<br>
+
+* tooling that will get you from infrastructure to Kubernetes
+* it will not set up the infrastructure for you.
+* it is infinitely configurable
+* `kind` leverages `kubeadm` to initalize clusters!
+</script></section><section  data-markdown><script type="text/template">
+#### What are folks using kind for?
+<br>
+
+* [kind in a ci pipeline](https://www.loodse.com/blog/2019-03-12-running-kubernetes-in-the-ci-pipeline-/)
+* [local development]()
+* [demos of newer Kubernetes features](https://github.com/phenixblue/k8s-opa-demo)
+* [kinder tooling to test kubeadm](https://github.com/kubernetes/kubeadm/tree/master/kinder)
+* "/test pull-kubernetes-e2e-kind" on Kubernetes PRs for faster e2e feedback. Should be roughly 15-20 minutes currently 🎉
+</script></section><section  data-markdown><script type="text/template">
+### Thanks to @BenTheElder
+#### and all the other contributors for such a fantastic project!
+![](https://elder.dev/images/ben_avatar_optim.jpg)
+</script></section><section  data-markdown><script type="text/template">
+### And now without further ado
+
+## Demo Time!!
+
+---</script></section></div>
+    </div>
+
+    <script src="./lib/js/head.min.js"></script>
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
