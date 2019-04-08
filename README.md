@@ -1,5 +1,5 @@
 # Duffie's kind demos
 
-## slides are here: https://hackmd.io/p/Hk0daoLY4#/
+## slides are here: https://mauilion.github.io/kind-demo/index.html
 
 
