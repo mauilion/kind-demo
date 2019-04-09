@@ -81,3 +81,14 @@ Catch me on [twitter](https://twitter.com/mauilion), [slack.k8s.io](https://kube
 
 See github.com/mauilion/kind-demo for the config!
 
+---
+
+Come work with me!
+
+reach out via slack, twitter or email!
+
+@mauilion
+
+seeker@mauilion.com
+
+[careers.vmware.com](https://careeers.vmware.com)
