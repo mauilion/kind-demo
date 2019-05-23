@@ -65,6 +65,7 @@ Catch me on [twitter](https://twitter.com/mauilion), [slack.k8s.io](https://kube
 * [local development]()
 * [demos of newer Kubernetes features](https://github.com/phenixblue/k8s-opa-demo)
 * [kinder tooling to test kubeadm](https://github.com/kubernetes/kubeadm/tree/master/kinder)
+* [Using Kind to test a pr for Kubernetes](https://mauilion.dev/posts/kind-k8s-testing/)
 * "/test pull-kubernetes-e2e-kind" on Kubernetes PRs for faster e2e feedback. Should be roughly 15-20 minutes currently 🎉
 
 ---
@@ -91,4 +92,4 @@ reach out via slack, twitter or email!
 
 seeker@mauilion.com
 
-[careers.vmware.com](https://careeers.vmware.com)
+[careers.vmware.com](https://careers.vmware.com)
